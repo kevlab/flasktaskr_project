@@ -1,0 +1,6 @@
+
+404 error at 31-03-2015 20:57:01:http://localhost/not-actually-a-route/
+404 error at 31-03-2015 20:58:03:http://127.0.0.1:5000/favicon.ico
+404 error at 31-03-2015 20:58:03:http://127.0.0.1:5000/favicon.ico
+404 error at 31-03-2015 20:58:10:http://127.0.0.1:5000/users/doesntexist
+404 error at 28-03-2015 20:18:53:http://localhost/not-actually-a-route/
