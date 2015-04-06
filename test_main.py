@@ -44,7 +44,7 @@ class Alltests(unittest.TestCase):
     def test_index(self):
         """ Ensure flask was set up properly """
         response = self.app.get('/', content_type='html/text')
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 302)
 
 if __name__ == "__main__":
     unittest.main()
