@@ -12,28 +12,14 @@ def commit():
     local("git add . && git commit -am '{}'".format(message))
 
 def push():
-    local("git push origin master")
-
-def pull():
-    local("git pull origin master")
-
-def heroku():
-    local("git push heroku master")
-
-def heroku_test():
-    local("heroku run nosetests -v")
+    local("git branch")
+    branch = raw_input("Which branch do you want to push to? ")
+    local("git push origin {}".format(branch))
 
 def prepare():
     test()
     commit()
     push()
-
-def deploy():
-    pull()
-    test()
-    commit()
-    heroku()
-    heroku_test()
 
 def rollback():
     local("heroku rollback")
