@@ -1,11 +1,15 @@
 language:
-    - python
-
+- python
 python:
-    - "2.7"
-
+- '2.7'
 install:
-    - pip install -r requirements.txt
-
+- pip install -r requirements.txt
 script:
-    - nosetests
+- nosetests
+deploy:
+  provider: heroku
+  api_key:
+    secure: XxJAVzXMnWfBCrFxXr6UGGgSMekgTiKfYj0mKXHvrMkxWfSnek0KTO2cS3u2sryocPoaLLMq5YpMwBCIqqlE/nf243Xl/tGJ6CvrbbCGDdWUlSZKQjO1iiAw530xxCwBe92FpQg4tWl6LSCMBNIE08lrbrbvPXZvAMwEd2pdl4c=
+  app: pumpkin-cobbler-2116
+  on:
+    repo: kevlab/flasktaskr_project
