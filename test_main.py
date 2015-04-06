@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from project import app, db, bcrypt
+from project import app, db
 from config import basedir
 from project.models import User, Task
 
@@ -40,3 +40,6 @@ class Alltests(unittest.TestCase):
         #self.assertEqual(response.status_code, 500)
         #self.assertIn('Something went terribly wrong.', response.data)
         #self.assertNotIn('ValueError: Invalid salt', response.data)
+
+if __name__ == "__main__":
+    unittest.main()

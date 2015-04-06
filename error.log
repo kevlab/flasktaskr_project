@@ -1,9 +1,16 @@
 
-404 error at 31-03-2015 20:57:01:http://localhost/not-actually-a-route/
-404 error at 31-03-2015 20:58:03:http://127.0.0.1:5000/favicon.ico
-404 error at 31-03-2015 20:58:03:http://127.0.0.1:5000/favicon.ico
-404 error at 31-03-2015 20:58:10:http://127.0.0.1:5000/users/doesntexist
-404 error at 28-03-2015 20:18:53:http://localhost/not-actually-a-route/
-404 error at 28-03-2015 20:50:47:http://localhost/not-actually-a-route/
-404 error at 02-04-2015 19:43:46:http://localhost/not-actually-a-route/
-404 error at 02-04-2015 19:54:27:http://localhost/not-actually-a-route/
+404 error at 02-04-2015 20:04:48:http://localhost/not-actually-a-route/
+404 error at 02-04-2015 20:08:54:http://localhost/not-actually-a-route/
+404 error at 02-04-2015 20:10:40:http://localhost/not-actually-a-route/
+404 error at 03-04-2015 18:50:17:http://localhost/not-actually-a-route/
+404 error at 03-04-2015 19:04:59:http://localhost/api/tasks/
+404 error at 03-04-2015 19:05:00:http://localhost/not-actually-a-route/
+404 error at 03-04-2015 19:05:48:http://localhost/api/tasks/
+404 error at 03-04-2015 19:05:49:http://localhost/not-actually-a-route/
+404 error at 03-04-2015 19:21:22:http://localhost/not-actually-a-route/
+404 error at 03-04-2015 19:23:59:http://localhost/not-actually-a-route/
+500 error at 03-04-2015 19:30:21:http://localhost:5000/api/tasks/2
+404 error at 03-04-2015 19:34:58:http://localhost:5000/api/task/209
+404 error at 03-04-2015 19:35:01:http://localhost:5000/api/task/209
+404 error at 03-04-2015 19:35:10:http://localhost:5000/api/task/1
+404 error at 03-04-2015 19:35:12:http://localhost:5000/api/task/1

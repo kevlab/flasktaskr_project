@@ -26,10 +26,10 @@ def heroku_test():
 def prepare():
     test()
     commit()
-    #push()
+    push()
 
 def deploy():
-    #pull()
+    pull()
     test()
     commit()
     heroku()
