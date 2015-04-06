@@ -12,4 +12,5 @@ deploy:
     secure: XxJAVzXMnWfBCrFxXr6UGGgSMekgTiKfYj0mKXHvrMkxWfSnek0KTO2cS3u2sryocPoaLLMq5YpMwBCIqqlE/nf243Xl/tGJ6CvrbbCGDdWUlSZKQjO1iiAw530xxCwBe92FpQg4tWl6LSCMBNIE08lrbrbvPXZvAMwEd2pdl4c=
   app: pumpkin-cobbler-2116
   on:
+    branch: master
     repo: kevlab/flasktaskr_project
